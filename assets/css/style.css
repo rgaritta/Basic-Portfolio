@@ -43,6 +43,19 @@ h2 {
 
 }
 
+a {
+    color: #4aaaa5;
+    font-weight: 700;
+}
+
+a:hover {
+    color: rgb(255, 145, 0);
+}
+
+a:active {
+    color: black;
+}
+
 #header{
     background-color: #ffffff;
     margin: 0, 0, 20px;
@@ -86,6 +99,8 @@ nav a:first-child {
 }
 
 #my-pic {
+    width: 300px;
+    height: auto;
     float: left;
     margin-right: 20px;
 }
@@ -141,7 +156,7 @@ footer {
     height: auto;
 }
 
-.two-rows {
+.two-columns {
     width: 100%;
     max-width: 600px;
 }
@@ -187,5 +202,9 @@ input[type=submit] {
     color: #ffffff;
     font-size: 14px;
     padding: 10px 30px;
+}
+
+h2:hover {
+    color:#FFA06F;
 }
 
